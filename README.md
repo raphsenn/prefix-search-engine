@@ -2,7 +2,7 @@
 
 This project contains a BinaryTree struct that represents the prefix binary tree data structure used for efficient string searching. The BinaryTree struct is responsible for organizing and managing the dataset of strings, enabling quick prefix-based searches.
 
-<div align="center">
+<div align="left">
   <img src="./res/example.gif" alt="gif">
 </div>
 Efficient Search in a File with One Million URLs.
