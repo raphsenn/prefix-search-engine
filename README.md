@@ -5,7 +5,9 @@ This project contains a BinaryTree struct that represents the prefix binary tree
 <div align="left">
   <img src="./res/example.gif" alt="gif">
 </div>
-Efficient Search in a File with One Million URLs.
+For testing purposes, we've included a sample file named "top-1m.txt" that contains the top 1 million web URLs. This allows you to demonstrate the speed and efficiency of this search engine when performing prefix searches on a large dataset.
+
+Please note that in a real-world scenario, you would typically obtain such data from a web source or another relevant data provider..
 
 ### Features
 - Fast and efficient string searching using a prefix binary tree.
