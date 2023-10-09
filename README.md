@@ -66,9 +66,12 @@ https://crates.io/crates/fltk
 1. Clone the Repository to your local machine:
 ```js
 git clone https://github.com/raphsenn/prefix-search-engine.git
+```
+2. Navigate to the directory:
+```js
 cd prefix-search-engine
 ```
-2. Check if your Cargo.toml has the fltk flag under [dependencies]:
+3. Check if your Cargo.toml has the fltk flag under [dependencies]:
 ```js
 [dependencies]
 fltk = "1.4.13"
@@ -78,12 +81,12 @@ fltk-theme = "0.7.1"
 name = "searchengine"
 path = "searchengine.rs"
 ```
-3. You can specify the input dataset file by modifying top-1m.csv file, to a file of your own:
+4. You can specify the input dataset file by modifying top-1m.csv file, to a file of your own:
 ```js
 search_engine.read("top-1m.csv")?;
 ```
 
-4. Compile and run the project using Cargo:
+5. Compile and run the project using Cargo:
 ```js
 cargo run
 ```
